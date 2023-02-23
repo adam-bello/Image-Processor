@@ -1,0 +1,28 @@
+﻿GUI USEME:
+General Information: 
+- Load command must be used before any other command on a specific image otherwise an error message will popup
+- The x in the corner of the window is used to quit and close the GUI
+- Use the radio buttons to select which image to edit (if multiple are loaded)
+- The histogram is displayed below the image and will update as edits are made or new images are loaded
+
+
+Blur - Press blur button
+Brighten - Press brighten button
+* When prompted, enter an integer amount to brighten the image by
+Darken - press the darken button
+* When prompted, enter an integer amount to darken the image by
+Flip-horizontal - press flip horizontal button
+flip-vertical - press flip vertical button
+Load - press load button
+* When the file selector appears, choose the image to be loaded and press OK
+Save - press the save button
+* When the file selector appears, navigate to the folder you want to save in
+* Type the pathname you would like the image being saved to have and press OK
+Sharpen - press sharpen button
+Visualize-red - press visualize red button
+Visualize-green - press visualize green button
+Visualize-blue - press visualize blue button
+Visualize-intensity - press visualize intensity button
+Visualize-luma - press visualize luma button
+Visualize-sepia -press visualize sepia button
+Visualize-value - press visualize value button
