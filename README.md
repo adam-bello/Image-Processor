@@ -1,7 +1,5 @@
-Image Usage: This is my shoe and my image. I took the picture and give myself the rights to use it.
-
 Design overview:
-* We have a model which does all the actual modifications to an image
+* Model does all the actual modifications to an image
 * Brighten, darken, flip, visualizing components, etc.
 * 2 different kinds of views
    * Text view - relaying messages to the user in text form
@@ -19,20 +17,6 @@ Program capabilities:
 
 Use:
 * Open terminal and navigate to the folder with the jar file
-* Use “java -jar Assignment6.jar” to run the GUI
-* Use “java -jar Assignment6.jar -text” to enter interactive mode
-* Use “java -jar Assignment6.jar -file file-path” to enter script mode
-
-
-Changes we made:
-* We made a features interface which is implemented by our new GUI controller
-   * This has methods for executing all the capabilities of the program
-   * These methods are used as action listeners in the GUI
-   * Calls methods from the model/view to execute commands
-* We made a GUIView which extends our old interface and extends JFrame
-   * The constructor constructs a frame with 4 panels
-      * A panel containing all the buttons for editing, loading, and saving an image
-      * A panel of radio buttons to switch between loaded images
-      * A panel displaying the current image being worked on
-      * A panel displaying the histogram of the current image
-   * The methods in the GUIView use input from the user as well as information from the controller to create the display.
+* Use “java -jar ImageProcessor.jar” to run the GUI
+* Use “java -jar ImageProcessor.jar -text” to enter interactive mode
+* Use “java -jar ImageProcessor.jar -file file-path” to enter script mode
